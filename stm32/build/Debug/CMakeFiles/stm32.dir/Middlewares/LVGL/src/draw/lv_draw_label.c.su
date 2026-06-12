@@ -1,0 +1,4 @@
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/lv_draw_label.c:379:16:hex_char_to_num	0	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/lv_draw_label.c:55:28:lv_draw_label_dsc_init	16	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/lv_draw_label.c:364:6:lv_draw_letter	4	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/lv_draw_label.c:77:28:lv_draw_label	248	static

@@ -1,0 +1,3 @@
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/gpio.c:42:6:MX_GPIO_Init	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/gpio.c:56:6:MX_OLED_I2C_GPIO_Init	40	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/gpio.c:78:6:MX_TFT_SPI_GPIO_Init	48	static

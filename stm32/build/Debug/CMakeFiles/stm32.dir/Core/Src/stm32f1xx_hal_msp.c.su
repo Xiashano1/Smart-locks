@@ -1,0 +1,4 @@
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/stm32f1xx_hal_msp.c:62:6:HAL_MspInit	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/stm32f1xx_hal_msp.c:92:6:HAL_SPI_MspInit	40	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/stm32f1xx_hal_msp.c:135:6:HAL_SPI_MspDeInit	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/stm32f1xx_hal_msp.c:165:6:MX_SPI1_Init	8	static

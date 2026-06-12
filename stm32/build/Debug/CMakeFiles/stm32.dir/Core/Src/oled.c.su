@@ -1,0 +1,14 @@
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:137:13:OLED_I2C_Delay	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:144:13:OLED_I2C_Start	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:166:13:OLED_I2C_SendByte	16	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:156:13:OLED_I2C_Stop	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:194:13:OLED_WriteCmd	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:258:6:OLED_Clear	0	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:266:6:OLED_Display	24	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:219:6:OLED_Init	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:288:6:OLED_DrawPixel	12	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:303:6:OLED_SetCursor	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:316:6:OLED_ShowChar	12	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:348:6:OLED_ShowString	16	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:373:6:OLED_ShowNum	40	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/oled.c:398:6:OLED_ShowFloat	48	static

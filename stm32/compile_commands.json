@@ -1,0 +1,116 @@
+[
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles\\stm32.dir\\Core\\Src\\main.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Core\\Src\\main.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Core/Src/main.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/CMakeFiles/stm32.dir/Core/Src/main.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles\\stm32.dir\\Core\\Src\\gpio.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Core\\Src\\gpio.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Core/Src/gpio.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/CMakeFiles/stm32.dir/Core/Src/gpio.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles\\stm32.dir\\Core\\Src\\stm32f1xx_it.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Core\\Src\\stm32f1xx_it.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Core/Src/stm32f1xx_it.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/CMakeFiles/stm32.dir/Core/Src/stm32f1xx_it.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles\\stm32.dir\\Core\\Src\\stm32f1xx_hal_msp.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Core\\Src\\stm32f1xx_hal_msp.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Core/Src/stm32f1xx_hal_msp.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/CMakeFiles/stm32.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles\\stm32.dir\\Core\\Src\\sysmem.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Core\\Src\\sysmem.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Core/Src/sysmem.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/CMakeFiles/stm32.dir/Core/Src/sysmem.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles\\stm32.dir\\Core\\Src\\syscalls.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Core\\Src\\syscalls.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Core/Src/syscalls.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/CMakeFiles/stm32.dir/Core/Src/syscalls.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -x assembler-with-cpp -MMD -MP -g -o CMakeFiles\\stm32.dir\\startup_stm32f103xb.s.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\startup_stm32f103xb.s",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/startup_stm32f103xb.s",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/CMakeFiles/stm32.dir/startup_stm32f103xb.s.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Core\\Src\\system_stm32f1xx.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Core\\Src\\system_stm32f1xx.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Core/Src/system_stm32f1xx.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+},
+{
+  "directory": "C:/Users/18148/Desktop/stm32/stm32/build/Debug",
+  "command": "C:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Core/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/18148/Desktop/stm32/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c.obj -c C:\\Users\\18148\\Desktop\\stm32\\stm32\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c",
+  "file": "C:/Users/18148/Desktop/stm32/stm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+  "output": "C:/Users/18148/Desktop/stm32/stm32/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+}
+]

@@ -1,0 +1,13 @@
+CompileFlags:
+  CompilationDatabase: build/Debug
+  Add:
+    - --target=armv7m-none-eabi
+    - -mthumb
+    - -mcpu=cortex-m3
+  Compiler: arm-none-eabi-gcc
+
+Diagnostics:
+  Suppress:
+    - drv_unknown_argument
+    - drv_unknown_argument_with_suggestion
+    - pp_file_not_found

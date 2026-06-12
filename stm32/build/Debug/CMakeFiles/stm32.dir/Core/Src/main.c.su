@@ -1,0 +1,5 @@
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/main.c:40:13:vDisplayTask	8	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/main.c:31:6:vApplicationTickHook	0	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/main.c:109:6:SystemClock_Config	72	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/main.c:70:5:main	40	static
+C:/Users/18148/Desktop/stm32/stm32/Core/Src/main.c:136:6:Error_Handler	0	static

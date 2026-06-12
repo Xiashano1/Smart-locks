@@ -1,0 +1,7 @@
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/misc/lv_mem.h:173:20:lv_memset_ff	0	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/sw/lv_draw_sw_rect.c:324:13:draw_bg_img	104	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/sw/lv_draw_sw_rect.c:97:13:draw_bg	144	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/sw/lv_draw_sw_rect.c:1032:35:shadow_blur_corner	56	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/sw/lv_draw_sw_rect.c:83:6:lv_draw_sw_bg	16	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/sw/lv_draw_sw_rect.c:1146:6:draw_border_generic	192	static
+C:/Users/18148/Desktop/stm32/stm32/Middlewares/LVGL/src/draw/sw/lv_draw_sw_rect.c:67:6:lv_draw_sw_rect	200	static

@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "*.h": "c"
+    },
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.errorSquiggles": "disabled",
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=${workspaceFolder}/build/Debug",
+        "--query-driver=C:/Program Files/Arm GNU Toolchain arm-none-eabi/**;C:/Program Files/Arm/**;C:/PROGRA~1/Arm/**;**/arm-none-eabi-gcc.exe;**/arm-none-eabi-g++.exe"
+    ],
+    "clangd.checkUpdates": true,
+    "clangd.fallbackFlags": [
+        "-std=gnu11",
+        "--target=armv7m-none-eabi",
+        "-mthumb",
+        "-mcpu=cortex-m3",
+        "-DSTM32F103xB",
+        "-DUSE_HAL_DRIVER",
+        "-DDEBUG",
+        "-ICore/Inc",
+        "-IDrivers/STM32F1xx_HAL_Driver/Inc",
+        "-IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "-IDrivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "-IDrivers/CMSIS/Include"
+    ]
+}
