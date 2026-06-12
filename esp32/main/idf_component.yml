@@ -1,0 +1,3 @@
+## IDF Component Manager 配置文件
+dependencies:
+  lvgl/lvgl: "^8.3"

@@ -1,0 +1,34 @@
+CompileFlags:
+  Add:
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_driver_spi/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/driver/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/freertos/FreeRTOS-Kernel/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/freertos/esp_additions/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/soc/esp32/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/soc/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_common/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_hw_support/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_rom/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/hal/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/hal/esp32/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/log/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_system/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_timer/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/xtensa/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/xtensa/esp32/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/riscv/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/newlib/platform_include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/heap/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/efuse/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/efuse/esp32/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/vfs/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_ringbuf/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_event/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_pm/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_wifi/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/lwip/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_netif/include
+    - -IC:/Espressif/frameworks/esp-idf-master/esp-idf-master/components/esp_eth/include
+
+Diagnostics:
+  UnusedIncludes: Strict

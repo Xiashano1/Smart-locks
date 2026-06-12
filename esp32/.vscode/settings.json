@@ -1,0 +1,13 @@
+{
+  "C_Cpp.intelliSenseEngine": "Disabled",
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-20.1.1_20250829\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\18148\\Desktop\\esp32\\esp32\\build"
+  ],
+  "idf.customExtraVars": {},
+  "idf.portWin": "COM4",
+  "idf.currentSetup": "C:\\esp\\v6.0.1\\esp-idf",
+  "idf.flashType": "UART"
+}
