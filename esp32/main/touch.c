@@ -206,14 +206,12 @@ u8 TP_Scan(u8 tp)
 				x = (u16)(tp_dev.xfac * x + tp_dev.xoff);
 				y = (u16)(tp_dev.yfac * y + tp_dev.yoff);
 			}
-			else  // 无校准，默认映射（Y翻转，范围按典型XPT2046校正）
+			else  // 无校准，直接映射（竖屏方向）
 			{
-				// Y翻转: 触摸屏顶部ADC值高, 底部ADC值低 → 显示Y需要翻转
-				// 范围校正: 实际ADC范围约150-3700而非0-4095, 直接除4096会压缩
-				u32 sy_val = (y > 150) ? (y - 150) : 0;
-				u32 sx_val = (x > 150) ? (x - 150) : 0;
-				u32 sx = sx_val * lcddev.width / 1800;
-				u32 sy = (1800 - sy_val) * lcddev.height / 1800;
+				u32 sx_val = (y > 150) ? (y - 150) : 0;  // y=物理X
+				u32 sy_val = (x > 150) ? (x - 150) : 0;  // x=物理Y
+				u32 sx = sx_val * lcddev.width / 1800;   // 物理X→屏幕X
+				u32 sy = sy_val * lcddev.height / 1800;  // 物理Y→屏幕Y
 				if(sx >= lcddev.width) sx = lcddev.width - 1;
 				if(sy >= lcddev.height) sy = lcddev.height - 1;
 				x = (u16)sx;

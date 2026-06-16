@@ -435,14 +435,14 @@ void LCD_SetParam(void)
 	lcddev.height=240;
 	lcddev.setxcmd=0x2A;
 	lcddev.setycmd=0x2B;			
-	LCD_WriteReg(0x36,0x6C);
+	LCD_WriteReg(0x36,0xEC);// 0x6C->0xEC: flip Y
 #else
 	lcddev.dir=0;				 	 		
 	lcddev.width=240;
 	lcddev.height=320;
 	lcddev.setxcmd=0x2A;
 	lcddev.setycmd=0x2B;	
-	LCD_WriteReg(0x36,0xC9);
+	LCD_WriteReg(0x36,0x09);// 0xC9->0x09: 180deg
 #endif
 }	
 

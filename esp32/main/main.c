@@ -3,7 +3,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "gui.h"
-#include "test.h"
+#include "password.h"
 #include "touch.h"
 #include "nvs_flash.h"
 
@@ -33,6 +33,6 @@ void app_main(void)
 	while(1)
 	{
 		// 仅保留触摸测试用于调试
-		Touch_Test();		//触摸屏手写测试
+		Password_Lock();
 	}			  
  }

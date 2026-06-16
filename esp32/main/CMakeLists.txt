@@ -1,4 +1,4 @@
-idf_component_register(SRCS "lcd.c" "GUI.c" "touch.c" "main.c" "test.c"
+idf_component_register(SRCS "password.c" "lcd.c" "GUI.c" "touch.c" "main.c" "test.c"
                     INCLUDE_DIRS "."
                     REQUIRES esp_driver_gpio esp_driver_spi nvs_flash)
 
