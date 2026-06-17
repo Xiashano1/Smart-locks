@@ -2,6 +2,7 @@
 #include "lcd.h"
 #include "gui.h"
 #include "touch.h"
+#include "mqtt_app.h"
 #include <string.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -158,10 +159,39 @@ void Password_Lock(void)
 
     reset_ui();
 
+    // 进入密码锁 → 门锁处于关闭状态
+    mqtt_publish_lock_status(0);
+
     u8 was_pressed = 0;
+    int last_mqtt = -2;  // 上次显示的MQTT状态（强制首次更新）
 
     while (1)
     {
+        // ---- 轮询 MQTT 状态，更新底部状态栏 ----
+        if (g_mqtt_connected != last_mqtt) {
+            last_mqtt = g_mqtt_connected;
+            const char *status_str;
+            u16 status_color;
+            if (g_mqtt_connected == 1) {
+                status_str = "MQTT:OK";
+                status_color = GREEN;
+            } else if (g_mqtt_connected == 0) {
+                status_str = "MQTT:!!";
+                status_color = RED;
+            } else {
+                status_str = "MQTT:...";
+                status_color = BLUE;
+            }
+            // 在底部状态栏右侧显示（不影响 "Enter PIN" / "UNLOCKED!" / "WRONG"）
+            LCD_Fill(130, lcddev.height - 28, lcddev.width - 12,
+                     lcddev.height - 7, WHITE);
+            POINT_COLOR = status_color;
+            LCD_ShowString(130, lcddev.height - 26, 16, (u8 *)status_str, 1);
+        }
+
+        /* MQTT 连接后初始化订阅和首次发布（只执行一次） */
+        mqtt_app_init_session();
+
         u8 pressed = tp_dev.scan(0) & TP_PRES_DOWN;
 
         if (pressed && !was_pressed)
@@ -196,6 +226,11 @@ void Password_Lock(void)
                             show_result(1);
                             vTaskDelay(pdMS_TO_TICKS(300));
 
+                            // MQTT 上报：正确密码 + 门锁打开
+                            mqtt_publish_password(DEFAULT_PWD);
+                            vTaskDelay(pdMS_TO_TICKS(50));
+                            mqtt_publish_lock_status(1);
+
                             // 解锁成功 → 全屏欢迎画面
                             LCD_Clear(GREEN);
                             POINT_COLOR = WHITE;
@@ -207,6 +242,10 @@ void Password_Lock(void)
                                 vTaskDelay(pdMS_TO_TICKS(100));
                         } else {
                             show_result(0);
+
+                            // MQTT 上报：密码输入错误
+                            mqtt_publish_wrong_pwd();
+
                             vTaskDelay(pdMS_TO_TICKS(1500));
                             reset_ui();
                         }

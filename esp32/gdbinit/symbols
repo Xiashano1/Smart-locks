@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file C:/Users/18148/Desktop/esp32/esp32/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file C:/Users/18148/Desktop/esp32/esp32/esp32.elf
